@@ -2,7 +2,15 @@ ZIM tools
 =============
 
 Various ZIM command line tools. More information about the ZIM format
-and the [openZIM project](https://openzim.org).
+and the [openZIM project](https://openzim.org):
+* zimbench: Performance measurement of a ZIM file reading
+* zimcheck: Check quality of ZIM file content
+* zimdiff: Compute a diff ZIM file between two ZIM files
+* zimdump: Dump content of a ZIM file
+* zimpatch: Apply a ZIM diff file to a ZIM file
+* zimrecreate: Recreate a ZIM file from the same "old" ZIM file
+* zimsearch: (Fulltext) Search in a ZIM file
+* zimsplit: Split smartly a ZIM file (without breaking clusters)
 
 [![Build Status](https://travis-ci.org/openzim/zim-tools.svg?branch=master)](https://travis-ci.org/openzim/zim-tools)
 [![CodeFactor](https://www.codefactor.io/repository/github/openzim/zim-tools/badge)](https://www.codefactor.io/repository/github/openzim/zim-tools)
